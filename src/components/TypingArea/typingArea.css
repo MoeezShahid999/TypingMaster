@@ -1,0 +1,52 @@
+.Typing-area {
+  margin: 10vh auto;
+}
+
+.Typing-area > p {
+  width: 80vw;
+  min-width: 300px;
+  margin: auto;
+  padding: 20px;
+  text-align: right;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.Typing-area #textarea {
+  margin: auto;
+  display: block;
+  width: 80vw;
+  min-width: 300px;
+  height: 10vh;
+  min-height: 200px;
+  font-size: 18px;
+  padding: 20px;
+  border: 0px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.Typing-area textarea {
+  margin: auto;
+  display: block;
+  width: 80vw;
+  min-width: 300px;
+  height: 10vh;
+  min-height: 200px;
+  font-size: 18px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.Typing-area #textarea .error {
+  background-color: rgb(255, 195, 195);
+}
+.Typing-area #textarea .current {
+  background-color: rgb(165, 165, 255);
+}
+
+.Typing-area #textarea .space {
+  padding: 0 2px;
+}

@@ -1,0 +1,9 @@
+.Header{
+  padding:20px;
+  background-color: black;
+}
+
+.Header .brand{
+  font-size: 20px;
+  color: white;
+}

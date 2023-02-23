@@ -1,0 +1,50 @@
+.result{
+  height: 40vh;
+  width: 30vw;
+  min-height: 300px;
+  box-shadow: 2px 2px 2px #eee;
+  border: 1px solid #eee;
+  padding: 20px 40px;
+  margin: auto;
+  top: 30vh;
+  box-sizing: border-box;
+  overflow: auto;
+  position: absolute;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 35vw;
+}
+
+.result .box{
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.result .box .title,.result .box .ans{
+  text-align: left;
+  min-width: 100px;
+}
+
+.result button{
+  width: 100%;
+  padding: 10px 0;
+  background-color: #eee;
+  border: 1px solid #eee;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.result button:hover{
+  background-color: rgb(211, 211, 211);
+  border: 1px solid #eee;
+}
+
+@media(max-width:1200px){
+  .result{
+    width:350px;
+    margin-left: calc(50vw - 175px);
+  }
+}
